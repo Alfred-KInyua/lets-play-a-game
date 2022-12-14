@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(150, 3, 59);
+  position: relative;
+  z-index: -1;
+}
+.container {
+  color: rgb(10, 10, 10);
+  background-color: rgba(245, 239, 241, 0.856);
+  height: 70vh;
+  position: absolute;
+  width: 70%;
+  top: 0;
+  left: 0;
+  transform: translate(20%, 30%);
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.player-one {
+  background-color: rgb(236, 229, 229);
+  padding: 5px;
+  text-align: center;
+}
+.player-two {
+  background-color: rgba(182, 145, 145, 0.301);
+  padding: 5px;
+  text-align: center;
+}
+.game-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 20%;
+  transform: translate(200%, 10%);
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.again,
+.dice,
+.roll,
+.hold {
+  padding: 15px;
+  margin: 1px;
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.295);
+  margin-bottom: 5%;
+}
+img {
+  max-width: 100%;
+}
